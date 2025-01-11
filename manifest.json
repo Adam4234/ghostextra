@@ -1,0 +1,209 @@
+{
+	"version": "1.1.1",
+	"id": "Adam.GhostLostLevels",
+	"name": "Ghost Mode - The Lost Levels",
+	"description": "A mod that adds all the levels that weren't added to Ghost Mode",
+	"authors": ["Adam"],
+	"blobsFolders": ["blobs"],
+	"contentFolders": ["content"],
+	"updateCheck": "https://raw.githubusercontent.com/Adam4234/ghostcustom/refs/heads/main/updates.json",
+	"frameworkVersion": "2.33.18",
+	"supportedPlatforms": ["steam"],
+	"loadAfter": [ "HITMAPS.GhostModeEnabler"],
+	"localisation": {
+		"english": {
+			"UI_CONTRACT_HEADER_VSRACE": "Not Really Ghost Mode",
+			"UI_LOCATION_SALTY_CITY": "Hantu Port (REQUIRES SANDBOX HANTU PORT)",
+			"UI_LOCATION_GREEDY_CITY": "New York",
+			"UI_LOCATION_OPULENT_CITY": "Haven Island",
+			"UI_LOCATION_GOLDEN_CITY": "Dubai",
+			"UI_LOCATION_ANCESTRAL_CITY": "Dartmoor",
+			"UI_LOCATION_EDGY_CITY": "Berlin",
+			"UI_LOCATION_WET_CITY": "Chongqing",
+			"UI_LOCATION_ELEGANT_CITY": "Mendoza",
+			"UI_LOCATION_TRAPPED_CITY": "Carpathian Mountains"
+		}
+	},
+	"packagedefinition": [
+		{
+			"type": "entity",
+			"partition": "mongoose",
+			"path": "[assembly:/_PRO/Scenes/missions/mumbai/versus_entrance_mumbai.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "mongoose",
+			"path": "[assembly:/_PRO/Scenes/missions/mumbai/versus_items_mumbai.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "mongoose",
+			"path": "[assembly:/_PRO/Scenes/missions/mumbai/versus_targets_mumbai.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "skunk",
+			"path": "[assembly:/_PRO/Scenes/missions/skunk/versus_entrance_skunk.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "skunk",
+			"path": "[assembly:/_PRO/Scenes/missions/skunk/versus_items_skunk.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "skunk",
+			"path": "[assembly:/_PRO/Scenes/missions/skunk/versus_targets_skunk.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "theark",
+			"path": "[assembly:/_PRO/Scenes/missions/theark/versus_entrance_theark.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "theark",
+			"path": "[assembly:/_PRO/Scenes/missions/theark/versus_items_theark.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "theark",
+			"path": "[assembly:/_PRO/Scenes/missions/theark/versus_targets_theark.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "salty",
+			"path": "[assembly:/_PRO/Scenes/missions/salty/mission_seagull/versus_entrance_hantu.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "salty",
+			"path": "[assembly:/_PRO/Scenes/missions/salty/mission_seagull/versus_items_hantu.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "salty",
+			"path": "[assembly:/_PRO/Scenes/missions/salty/mission_seagull/versus_targets_hantu.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "greedy",
+			"path": "[assembly:/_PRO/Scenes/missions/greedy/mission_raccoon/versus_entrance_newyork.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "greedy",
+			"path": "[assembly:/_PRO/Scenes/missions/greedy/mission_raccoon/versus_items_newyork.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "greedy",
+			"path": "[assembly:/_PRO/Scenes/missions/greedy/mission_raccoon/versus_targets_newyork.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "opulent",
+			"path": "[assembly:/_PRO/Scenes/missions/opulent/mission_stingray/versus_entrance_haven.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "opulent",
+			"path": "[assembly:/_PRO/Scenes/missions/opulent/mission_stingray/versus_items_haven.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "opulent",
+			"path": "[assembly:/_PRO/Scenes/missions/opulent/mission_stingray/versus_targets_haven.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "super",
+			"path": "[assembly:/_pro/scenes/missions/golden/mission_gecko/versus_entrance_dubai.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "super",
+			"path": "[assembly:/_pro/scenes/missions/golden/mission_gecko/versus_items_dubai.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "super",
+			"path": "[assembly:/_pro/scenes/missions/golden/mission_gecko/versus_targets_dubai.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "ancestral",
+			"path": "[assembly:/_pro/scenes/missions/ancestral/versus_entrance_dartmoor.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "ancestral",
+			"path": "[assembly:/_pro/scenes/missions/ancestral/versus_items_dartmoor.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "ancestral",
+			"path": "[assembly:/_pro/scenes/missions/ancestral/versus_targets_dartmoor.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "edgy",
+			"path": "[assembly:/_pro/scenes/missions/edgy/mission_fox/versus_entrance_berlin.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "edgy",
+			"path": "[assembly:/_pro/scenes/missions/edgy/mission_fox/versus_items_berlin.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "edgy",
+			"path": "[assembly:/_pro/scenes/missions/edgy/mission_fox/versus_targets_berlin.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "wet",
+			"path": "[assembly:/_pro/scenes/missions/wet/versus_entrance_chongqing.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "wet",
+			"path": "[assembly:/_pro/scenes/missions/wet/versus_items_chongqing.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "wet",
+			"path": "[assembly:/_pro/scenes/missions/wet/versus_targets_chongqing.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "elegant",
+			"path": "[assembly:/_pro/scenes/missions/elegant/versus_entrance_mendoza.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "elegant",
+			"path": "[assembly:/_pro/scenes/missions/elegant/versus_items_mendoza.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "elegant",
+			"path": "[assembly:/_pro/scenes/missions/elegant/versus_targets_mendoza.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "trapped",
+			"path": "[assembly:/_pro/scenes/missions/trapped/versus_entrance_train.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "trapped",
+			"path": "[assembly:/_pro/scenes/missions/trapped/versus_items_train.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "trapped",
+			"path": "[assembly:/_pro/scenes/missions/trapped/versus_targets_train.brick].entitytype"
+		}
+	]
+}
