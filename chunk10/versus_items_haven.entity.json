@@ -1,6 +1,6 @@
 {
-	"tempHash": "00F7530C41C21DAA",
-	"tbluHash": "00C492B15D62A553",
+	"tempHash": "0094AC6D7A7CBB4D",
+	"tbluHash": "006965183F0DD424",
 	"rootEntity": "fffffffffffffffe",
 	"entities": {
 		"c1e084e6b4bbfebf": {
@@ -36,15 +36,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 177.852968452243
-						},
+						"rotation": { "x": 0, "y": 0, "z": -90 },
 						"position": {
-							"x": -30.35675048828125,
-							"y": -85.13683319091797,
-							"z": 0.9304220080375672
+							"x": -11.072937,
+							"y": 42.78372,
+							"z": 2.0000024
 						},
 						"scale": {
 							"x": 0.999999997142004,
@@ -161,15 +157,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 1.1021522936293842
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
-							"x": -73.58390045166016,
-							"y": -87.4729232788086,
-							"z": 0.030236000195145607
+							"x": -35.087105,
+							"y": 19.978636,
+							"z": 16
 						},
 						"scale": {
 							"x": 0.9999999938205272,
@@ -320,86 +312,6 @@
 				}
 			}
 		},
-		"c96477c67ef36dba": {
-			"parent": "b043648148ab8957",
-			"name": "Crate_Ghost_Items_Parking_Lot",
-			"factory": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 177.852968452243
-						},
-						"position": {
-							"x": -67.73596954345703,
-							"y": -122.072998046875,
-							"z": 0.022722000256180763
-						},
-						"scale": {
-							"x": 0.999999997142004,
-							"y": 0.999999997142004,
-							"z": 1
-						}
-					}
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"IsOpen": { "type": "bool", "value": false },
-				"m_rMainItemKeyr3": {
-					"type": "SEntityTemplateReference",
-					"value": "fd333958caed807a"
-				},
-				"m_rMainItemKeyr2": {
-					"type": "SEntityTemplateReference",
-					"value": "fd333958caed807a"
-				},
-				"m_rMainItemKeym2": {
-					"type": "SEntityTemplateReference",
-					"value": "3e59b1603dcc3e08"
-				},
-				"m_rMainItemKeym1": {
-					"type": "SEntityTemplateReference",
-					"value": "3e59b1603dcc3e08"
-				},
-				"m_rMainItemKeyr1": {
-					"type": "SEntityTemplateReference",
-					"value": "5a3eab7c7fd79243",
-					"postInit": true
-				},
-				"m_rMainItemKeym3": {
-					"type": "SEntityTemplateReference",
-					"value": "0a859fe51ad0180c",
-					"postInit": true
-				},
-				"m_rMainItemKeyl3": {
-					"type": "SEntityTemplateReference",
-					"value": "2e76c328943c38ed",
-					"postInit": true
-				},
-				"m_rMainItemKeyl2": {
-					"type": "SEntityTemplateReference",
-					"value": "2e76c328943c38ed",
-					"postInit": true
-				},
-				"m_rMainItemKeyl1": {
-					"type": "SEntityTemplateReference",
-					"value": "2e76c328943c38ed",
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-		},
 		"4b1833bbb1298c20": {
 			"parent": "b043648148ab8957",
 			"name": "GameEventListener",
@@ -414,81 +326,6 @@
 			"events": {
 				"EventOccurred": { "SetTrue": ["6f93ceca5a387adb"] }
 			}
-		},
-		"aafa2100ab871b3c": {
-			"parent": "b043648148ab8957",
-			"name": "Crate_Special_HotelBackAlley",
-			"factory": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 178.75257231577365
-						},
-						"position": {
-							"x": -59.9309196472168,
-							"y": 130.51710510253906,
-							"z": 0.5999940037727356
-						},
-						"scale": {
-							"x": 1.000000012948021,
-							"y": 1.000000012948021,
-							"z": 1
-						}
-					}
-				},
-				"m_rMainItemKeyl3": {
-					"type": "SEntityTemplateReference",
-					"value": "501911b4f6181a8c"
-				},
-				"m_rMainItemKeym2": {
-					"type": "SEntityTemplateReference",
-					"value": "543f1877e8b0c2cf"
-				},
-				"m_rMainItemKeym3": {
-					"type": "SEntityTemplateReference",
-					"value": "98fdb6447f9241c2"
-				},
-				"m_rMainItemKeyr3": {
-					"type": "SEntityTemplateReference",
-					"value": "f98c93d182b26ca6"
-				},
-				"m_rMainItemKeyl1": {
-					"type": "SEntityTemplateReference",
-					"value": "2225a14de2400e6f",
-					"postInit": true
-				},
-				"m_rMainItemKeyl2": {
-					"type": "SEntityTemplateReference",
-					"value": "17127d1df0a0ac90",
-					"postInit": true
-				},
-				"m_rMainItemKeym1": {
-					"type": "SEntityTemplateReference",
-					"value": "3d7bc91952635c8c",
-					"postInit": true
-				},
-				"m_rMainItemKeyr1": {
-					"type": "SEntityTemplateReference",
-					"value": "c3e49a9fe88d411e",
-					"postInit": true
-				},
-				"m_rMainItemKeyr2": {
-					"type": "SEntityTemplateReference",
-					"value": "f9e88915e74359af",
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
 		"fb7da9b9e207d7a7": {
 			"parent": "5e6f7d354783c5b6",
@@ -562,245 +399,11 @@
 				}
 			}
 		},
-		"c819311a4fb6d850": {
-			"parent": "b043648148ab8957",
-			"name": "Crate_ToolsB_Emergency",
-			"factory": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -1.715405167077507
-						},
-						"position": {
-							"x": -33.65925979614258,
-							"y": 90.45819091796876,
-							"z": 0.1772090047597885
-						},
-						"scale": {
-							"x": 1.0000003279262404,
-							"y": 1.0000003279262404,
-							"z": 1
-						}
-					}
-				},
-				"m_rMainItemKeyl3": {
-					"type": "SEntityTemplateReference",
-					"value": "ce8285b9f21147b5"
-				},
-				"m_rMainItemKeyr2": {
-					"type": "SEntityTemplateReference",
-					"value": "dc7047d1a88b782b"
-				},
-				"m_rMainItemKeyr3": {
-					"type": "SEntityTemplateReference",
-					"value": "801172ddc0c47741"
-				},
-				"m_rMainItemKeyl1": {
-					"type": "SEntityTemplateReference",
-					"value": "b67d4ed91a36a93a",
-					"postInit": true
-				},
-				"m_rMainItemKeyl2": {
-					"type": "SEntityTemplateReference",
-					"value": "8e9534440d82278e",
-					"postInit": true
-				},
-				"m_rMainItemKeym1": {
-					"type": "SEntityTemplateReference",
-					"value": "48d329513d380c98",
-					"postInit": true
-				},
-				"m_rMainItemKeym2": {
-					"type": "SEntityTemplateReference",
-					"value": "8b8c6f7655d77556",
-					"postInit": true
-				},
-				"m_rMainItemKeym3": {
-					"type": "SEntityTemplateReference",
-					"value": "4ade2e71927e1ced",
-					"postInit": true
-				},
-				"m_rMainItemKeyr1": {
-					"type": "SEntityTemplateReference",
-					"value": "04d8b0fce710685a",
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-		},
 		"266ff978f9829a74": {
 			"parent": "b043648148ab8957",
 			"name": "Items_Weapons",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
-		},
-		"4424a36d1dbd934d": {
-			"parent": "b043648148ab8957",
-			"name": "Crate_Ghost_Items_Pier_01",
-			"factory": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0.42290389264009576
-						},
-						"position": {
-							"x": -202.54930114746097,
-							"y": 137.85659790039062,
-							"z": -2.5774519443511963
-						},
-						"scale": {
-							"x": 1.0000004780832166,
-							"y": 1.0000004780832166,
-							"z": 1
-						}
-					}
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"IsOpen": { "type": "bool", "value": false },
-				"m_rMainItemKeyr3": {
-					"type": "SEntityTemplateReference",
-					"value": "fd333958caed807a"
-				},
-				"m_rMainItemKeyr2": {
-					"type": "SEntityTemplateReference",
-					"value": "fd333958caed807a"
-				},
-				"m_rMainItemKeym2": {
-					"type": "SEntityTemplateReference",
-					"value": "3e59b1603dcc3e08"
-				},
-				"m_rMainItemKeym1": {
-					"type": "SEntityTemplateReference",
-					"value": "3e59b1603dcc3e08"
-				},
-				"m_rMainItemKeyr1": {
-					"type": "SEntityTemplateReference",
-					"value": "5a3eab7c7fd79243",
-					"postInit": true
-				},
-				"m_rMainItemKeym3": {
-					"type": "SEntityTemplateReference",
-					"value": "0a859fe51ad0180c",
-					"postInit": true
-				},
-				"m_rMainItemKeyl3": {
-					"type": "SEntityTemplateReference",
-					"value": "2e76c328943c38ed",
-					"postInit": true
-				},
-				"m_rMainItemKeyl2": {
-					"type": "SEntityTemplateReference",
-					"value": "2e76c328943c38ed",
-					"postInit": true
-				},
-				"m_rMainItemKeyl1": {
-					"type": "SEntityTemplateReference",
-					"value": "2e76c328943c38ed",
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-		},
-		"7289cac533e15dbe": {
-			"parent": "b043648148ab8957",
-			"name": "Crate_ToolsA_Parking_Basement",
-			"factory": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -92.14651623031844
-						},
-						"position": {
-							"x": -184.0377960205078,
-							"y": -29.5869197845459,
-							"z": -4.99994421005249
-						},
-						"scale": {
-							"x": 0.999999322848424,
-							"y": 0.999999322848424,
-							"z": 1
-						}
-					}
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"IsOpen": { "type": "bool", "value": false },
-				"m_rMainItemKeyl2": {
-					"type": "SEntityTemplateReference",
-					"value": "fb7da9b9e207d7a7"
-				},
-				"m_rMainItemKeyl3": {
-					"type": "SEntityTemplateReference",
-					"value": "0403da29d630be37"
-				},
-				"m_rMainItemKeym2": {
-					"type": "SEntityTemplateReference",
-					"value": "48e6057620fb6754"
-				},
-				"m_rMainItemKeym3": {
-					"type": "SEntityTemplateReference",
-					"value": "3ffa5b3c5038d622"
-				},
-				"m_rMainItemKeyr1": {
-					"type": "SEntityTemplateReference",
-					"value": "71b5240f9cc2ca39"
-				},
-				"m_rMainItemKeyr3": {
-					"type": "SEntityTemplateReference",
-					"value": "94f532cb282ffdba"
-				},
-				"m_rMainItemKeyl1": {
-					"type": "SEntityTemplateReference",
-					"value": "9952238f835384ea",
-					"postInit": true
-				},
-				"m_rMainItemKeym1": {
-					"type": "SEntityTemplateReference",
-					"value": "191821797c0ace1e",
-					"postInit": true
-				},
-				"m_rMainItemKeyr2": {
-					"type": "SEntityTemplateReference",
-					"value": "5c17e9e060a2321d",
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
 		"99fe11a088d1a0c9": {
 			"parent": "b043648148ab8957",
@@ -811,15 +414,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -88.89973926102607
-						},
+						"rotation": { "x": 0, "y": 0, "z": 90 },
 						"position": {
-							"x": -138.25,
-							"y": -46.617881774902344,
-							"z": 14.999970436096191
+							"x": 21.179102,
+							"y": 34.891663,
+							"z": 10.000001
 						},
 						"scale": {
 							"x": 1.0000007515649445,
@@ -890,82 +489,6 @@
 				}
 			}
 		},
-		"41fb6c0c2d56739a": {
-			"parent": "b043648148ab8957",
-			"name": "Crate_ToolsB_Underpass",
-			"factory": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -38.75024491657255
-						},
-						"position": {
-							"x": -118.53589630126952,
-							"y": -99.47147369384766,
-							"z": -4.952930927276611
-						},
-						"scale": {
-							"x": 1.0000005290157254,
-							"y": 1.0000005290157254,
-							"z": 1
-						}
-					}
-				},
-				"m_rMainItemKeyl3": {
-					"type": "SEntityTemplateReference",
-					"value": "ce8285b9f21147b5"
-				},
-				"m_rMainItemKeyr2": {
-					"type": "SEntityTemplateReference",
-					"value": "dc7047d1a88b782b"
-				},
-				"m_rMainItemKeyr3": {
-					"type": "SEntityTemplateReference",
-					"value": "801172ddc0c47741"
-				},
-				"m_rMainItemKeyl1": {
-					"type": "SEntityTemplateReference",
-					"value": "b67d4ed91a36a93a",
-					"postInit": true
-				},
-				"m_rMainItemKeyl2": {
-					"type": "SEntityTemplateReference",
-					"value": "8e9534440d82278e",
-					"postInit": true
-				},
-				"m_rMainItemKeym1": {
-					"type": "SEntityTemplateReference",
-					"value": "48d329513d380c98",
-					"postInit": true
-				},
-				"m_rMainItemKeym2": {
-					"type": "SEntityTemplateReference",
-					"value": "8b8c6f7655d77556",
-					"postInit": true
-				},
-				"m_rMainItemKeym3": {
-					"type": "SEntityTemplateReference",
-					"value": "4ade2e71927e1ced",
-					"postInit": true
-				},
-				"m_rMainItemKeyr1": {
-					"type": "SEntityTemplateReference",
-					"value": "04d8b0fce710685a",
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-		},
 		"5e6f7d354783c5b6": {
 			"parent": "b043648148ab8957",
 			"name": "Items_Tools_A",
@@ -983,86 +506,6 @@
 					"value": "12cb6b51-a6dd-4bf5-9653-0ab727820cac"
 				}
 			}
-		},
-		"2b310c43979156f3": {
-			"parent": "b043648148ab8957",
-			"name": "Crate_Weapon_Podium",
-			"factory": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 177.48402128095316
-						},
-						"position": {
-							"x": -139.5511016845703,
-							"y": 36.58784103393555,
-							"z": 4.800076007843018
-						},
-						"scale": {
-							"x": 0.9999999919482436,
-							"y": 0.9999999919482436,
-							"z": 1
-						}
-					}
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"IsOpen": { "type": "bool", "value": false },
-				"m_rMainItemKeyl2": {
-					"type": "SEntityTemplateReference",
-					"value": "c1e084e6b4bbfebf"
-				},
-				"m_rMainItemKeym1": {
-					"type": "SEntityTemplateReference",
-					"value": "0ec00160ab0538e1"
-				},
-				"m_rMainItemKeyr1": {
-					"type": "SEntityTemplateReference",
-					"value": "d40aadb212333a09"
-				},
-				"m_rMainItemKeyr2": {
-					"type": "SEntityTemplateReference",
-					"value": "e7f0d6f9949d17f2"
-				},
-				"m_rMainItemKeyl1": {
-					"type": "SEntityTemplateReference",
-					"value": "c35e81368d9aa6fe",
-					"postInit": true
-				},
-				"m_rMainItemKeyl3": {
-					"type": "SEntityTemplateReference",
-					"value": "1631cbfcf494b9d6",
-					"postInit": true
-				},
-				"m_rMainItemKeym2": {
-					"type": "SEntityTemplateReference",
-					"value": "6222f25af4acf661",
-					"postInit": true
-				},
-				"m_rMainItemKeym3": {
-					"type": "SEntityTemplateReference",
-					"value": "b05f91ba9e6b6482",
-					"postInit": true
-				},
-				"m_rMainItemKeyr3": {
-					"type": "SEntityTemplateReference",
-					"value": "b1f02c6ea3843ea2",
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
 		"3d536c82068cc4c4": {
 			"parent": {
@@ -1089,15 +532,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -90.43780125096852
-						},
+						"rotation": { "x": 0, "y": 0, "z": -90 },
 						"position": {
-							"x": -12.08810043334961,
-							"y": 71.66065216064453,
-							"z": 5.399994850158691
+							"x": -19.761595,
+							"y": -24.545408,
+							"z": 6
 						},
 						"scale": {
 							"x": 1.0000003308027536,
@@ -1194,15 +633,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 90.83929833172716
-						},
+						"rotation": { "x": 0, "y": 0, "z": 90 },
 						"position": {
-							"x": -10.607660293579102,
-							"y": 54.21891021728515,
-							"z": -0.00003199999991920777
+							"x": -9.700998,
+							"y": 69.528824,
+							"z": 16.002012
 						},
 						"scale": {
 							"x": 1.0000005946696964,
@@ -1276,71 +711,6 @@
 				}
 			}
 		},
-		"dc6e5ebe64a59b0f": {
-			"parent": "b043648148ab8957",
-			"name": "Crate_Weapons_Hotel_Roof",
-			"factory": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": -180 },
-						"position": {
-							"x": -58.223358154296875,
-							"y": 107.3468017578125,
-							"z": 10.617110252380373
-						}
-					}
-				},
-				"m_rMainItemKeyl2": {
-					"type": "SEntityTemplateReference",
-					"value": "c1e084e6b4bbfebf"
-				},
-				"m_rMainItemKeym1": {
-					"type": "SEntityTemplateReference",
-					"value": "0ec00160ab0538e1"
-				},
-				"m_rMainItemKeyr1": {
-					"type": "SEntityTemplateReference",
-					"value": "d40aadb212333a09"
-				},
-				"m_rMainItemKeyr2": {
-					"type": "SEntityTemplateReference",
-					"value": "e7f0d6f9949d17f2"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				},
-				"m_rMainItemKeyl1": {
-					"type": "SEntityTemplateReference",
-					"value": "c35e81368d9aa6fe",
-					"postInit": true
-				},
-				"m_rMainItemKeyl3": {
-					"type": "SEntityTemplateReference",
-					"value": "1631cbfcf494b9d6",
-					"postInit": true
-				},
-				"m_rMainItemKeym2": {
-					"type": "SEntityTemplateReference",
-					"value": "6222f25af4acf661",
-					"postInit": true
-				},
-				"m_rMainItemKeym3": {
-					"type": "SEntityTemplateReference",
-					"value": "b05f91ba9e6b6482",
-					"postInit": true
-				},
-				"m_rMainItemKeyr3": {
-					"type": "SEntityTemplateReference",
-					"value": "b1f02c6ea3843ea2",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-		},
 		"b043648148ab8957": {
 			"parent": "0b9bf282d4bf29d8",
 			"name": "Pickups",
@@ -1376,81 +746,6 @@
 			"name": "Items_Special",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
-		},
-		"db1aab33a32156ef": {
-			"parent": "b043648148ab8957",
-			"name": "Crate_ToolsA_Parking_Communication",
-			"factory": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 179.11973029136865
-						},
-						"position": {
-							"x": -96.9496612548828,
-							"y": 8.72108268737793,
-							"z": 7.600104808807373
-						},
-						"scale": {
-							"x": 1.0000000013139894,
-							"y": 1.0000000013139894,
-							"z": 1
-						}
-					}
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"IsOpen": { "type": "bool", "value": false },
-				"m_rMainItemKeyl2": {
-					"type": "SEntityTemplateReference",
-					"value": "fb7da9b9e207d7a7"
-				},
-				"m_rMainItemKeyl3": {
-					"type": "SEntityTemplateReference",
-					"value": "0403da29d630be37"
-				},
-				"m_rMainItemKeym1": {
-					"type": "SEntityTemplateReference",
-					"value": "191821797c0ace1e"
-				},
-				"m_rMainItemKeym2": {
-					"type": "SEntityTemplateReference",
-					"value": "48e6057620fb6754"
-				},
-				"m_rMainItemKeym3": {
-					"type": "SEntityTemplateReference",
-					"value": "3ffa5b3c5038d622"
-				},
-				"m_rMainItemKeyr1": {
-					"type": "SEntityTemplateReference",
-					"value": "71b5240f9cc2ca39"
-				},
-				"m_rMainItemKeyr2": {
-					"type": "SEntityTemplateReference",
-					"value": "5c17e9e060a2321d"
-				},
-				"m_rMainItemKeyr3": {
-					"type": "SEntityTemplateReference",
-					"value": "94f532cb282ffdba"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				},
-				"m_rMainItemKeyl1": {
-					"type": "SEntityTemplateReference",
-					"value": "9952238f835384ea",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
 		"9952238f835384ea": {
 			"parent": "5e6f7d354783c5b6",
@@ -1515,15 +810,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 175.89278873785284
-						},
+						"rotation": { "x": 0, "y": 0, "z": 90 },
 						"position": {
-							"x": -166.47850036621094,
-							"y": -64.83210754394531,
-							"z": 18.293750762939453
+							"x": 15.366041,
+							"y": -14.8712,
+							"z": 6
 						},
 						"scale": {
 							"x": 1.000000435400545,
@@ -1587,15 +878,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 159.01865184892415
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
-							"x": -180.8773956298828,
-							"y": 113.13670349121094,
-							"z": 1.0000009536743164
+							"x": -28.992413,
+							"y": 12.455939,
+							"z": 6
 						},
 						"scale": {
 							"x": 0.9999998853707304,
@@ -1754,15 +1041,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 139.53962732607167
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
-							"x": -4.496681213378906,
-							"y": 108.06670379638672,
-							"z": 10.599980354309082
+							"x": -42.44281,
+							"y": 62.148556,
+							"z": 16.000011
 						},
 						"scale": {
 							"x": 1.0000001561105378,
