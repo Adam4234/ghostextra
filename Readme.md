@@ -1,2 +1,2 @@
-# GhostLostLevels
-Private Mod for adding extra levels to Ghost Mode from Hitman World Of Assassination
+# GhostExtraLevels
+Mod for adding extra levels to Ghost Mode for Hitman World Of Assassination
